@@ -2,7 +2,7 @@ var express = require('express');
 var socket = require('socket.io');
 
 var app = express();
-var server = app.listen(4000, "0.0.0.0", () => {
+var server = app.listen(4000, "0.0.0.0", function() {
     console.log('Servidor corriendo en http://0.0.0.0:4000');
 });
 

@@ -1,4 +1,4 @@
-var socket = io.connect('http://0.0.0.0:4000');
+var socket = io.connect('http://3.16.155.187:4000');
 var persona = document.getElementById('persona'),
     appChat = document.getElementById('app-chat'),
     panelBienvenida = document.getElementById('panel-bienvenida'),

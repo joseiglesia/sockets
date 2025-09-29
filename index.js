@@ -2,8 +2,8 @@ var express = require('express');
 var socket = require('socket.io');
 
 var app = express();
-var server = app.listen(4000, function(){
-    console.log('Servidor corriente en http://localhost:4000');
+var server = app.listen(4000, "0.0.0.0", () => {
+    console.log('Servidor corriendo en http://0.0.0.0:4000');
 });
 
 app.use(express.static('public'));
